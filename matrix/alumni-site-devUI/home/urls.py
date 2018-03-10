@@ -6,6 +6,8 @@ urlpatterns=[
     url(r'^home/$',views.home,name='home'),
     url(r'^about/$', views.about_us, name='about_us'),
     url(r'^team/$', views.team, name='team'),
+    url(r'^events/$', views.events, name='events'),
+
 
     #url(r'^accounts/login/$',views.register,name='register'),
     url(r'^accounts/register/$', views.register, name='register'),
