@@ -17,7 +17,7 @@ from django.utils import timezone
 import bs4 as bs
 import urllib3
 # Create your views here.
-def home(request):
+def index(request):
     return render(request,'home/index.html')
 def about_us(request):
     return render(request,'home/about.html')
